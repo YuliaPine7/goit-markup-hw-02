@@ -1,0 +1,162 @@
+:root{
+    --primary-colour-darker: #2E2F42;
+    --primary-color-lighter: #434455;
+    --suplementary-color: #4D5AE5;
+    --standard-white-color: #FFFFFF;
+    --btn-click: #404BBF;
+    --footer-text: #E7E9FC;
+    --footer-logo-color: #F4F4FD;
+}
+
+/* --------------------- COMPONENTS -------------------- */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color-lighter);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+}
+.list-remove-marker{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--primary-colour-darker)
+}
+.link:hover,
+.link:focus{
+    color: var(--primary-color-lighter);
+}
+.link:active{
+    color: var(--suplementary-color);
+}
+.hidden-element{
+    display: none;
+}
+.suptitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--primary-colour-darker); 
+}
+.title{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--primary-colour-darker); 
+}
+/* --------------------- /COMPONENTS ------------------- */
+
+/* ----------------------- HEADER ---------------------- */
+
+.logo-web, .logo{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-web{
+    color: var(--suplementary-color)
+}
+.logo:hover,
+.logo:focus,
+.logo:active{
+    color: var(--primary-colour-darker);
+}
+.mail,.tel {
+    font-weight: 400;
+    color: var(--primary-color-lighter)
+}
+
+/* ----------------------- /HEADER ---------------------- */
+
+/* ------------------------- MAIN ----------------------- */
+
+.solutions-ad{
+    background-color: var(--primary-colour-darker);
+}
+.main-title{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.7;
+    text-align: center;
+    color: var(--standard-white-color);
+}
+.order-service-btn{
+    padding: 16px 32px;
+    gap: 10px;
+    width: 170px;
+    height: 51px;
+    background-color: var(--suplementary-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.19;
+    letter-spacing: 0.04em;
+    color: var(--standard-white-color);
+}
+.order-service-btn:hover,
+.order-service-btn:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    cursor: pointer;
+}
+.order-service-btn:active{
+    background-color: var(--btn-click);
+}
+/* ------------------------- /MAIN ----------------------- */
+
+/* ------------------------- FOOTER ---------------------- */
+.footer-company-info{
+    background-color: var(--primary-colour-darker);
+}
+.footer-text{
+    color: var(--footer-text);
+}
+.footer-company-info .logo{
+    color: var(--footer-logo-color);
+}
+/* ------------------------- /FOOTER ---------------------- */
+
+
+
+/* ======================PORTFOLIO========================= */
+.gallery-filter-btn{
+    padding: 8px 16px;
+    background: var(--footer-logo-color);
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.04em; 
+    color: var(--suplementary-color);
+    text-decoration: none;
+}
+.gallery-filter-btn:hover,
+.gallery-filter-btn:focus{
+    background: var(--suplementary-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);   
+    color: var(--standard-white-color);
+}
+.gallery-card{
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.cash-payment-item{
+    width: 360px;
+    height: 300px;
+    background: var(--suplementary-color);
+}
+.cash-payment-item{
+    color: var(--footer-logo-color);
+}
