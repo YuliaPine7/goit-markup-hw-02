@@ -1,11 +1,11 @@
 :root{
-    --primary-colour-darker: #2E2F42;
-    --primary-color-lighter: #434455;
-    --suplementary-color: #4D5AE5;
+    --primary-colour-dark: #2E2F42;
+    --body-text-color: #434455;
+    --primary-brand: #4D5AE5;
     --standard-white-color: #FFFFFF;
-    --btn-click: #404BBF;
-    --footer-text: #E7E9FC;
-    --footer-logo-color: #F4F4FD;
+    --pressed-state: #404BBF;
+    --subtle-background: #E7E9FC;
+    --light-mode-backgroung: #F4F4FD;
 }
 
 /* --------------------- COMPONENTS -------------------- */
@@ -16,7 +16,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    color: var(--primary-color-lighter);
+    color: var(--body-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5; 
@@ -28,14 +28,14 @@ body{
 .link{
     text-decoration: none;
     font-weight: 500;
-    color: var(--primary-colour-darker)
+    color: var(--primary-colour-dark)
 }
 .link:hover,
 .link:focus{
-    color: var(--primary-color-lighter);
+    color: var(--body-text-color);
 }
 .link:active{
-    color: var(--suplementary-color);
+    color: var(--primary-brand);
 }
 .hidden-element{
     display: none;
@@ -44,7 +44,7 @@ body{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: var(--primary-colour-darker); 
+    color: var(--primary-colour-dark); 
 }
 .title{
     font-weight: 500;
@@ -52,9 +52,9 @@ body{
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    color: var(--primary-colour-darker); 
+    color: var(--primary-colour-dark); 
 }
-/* --------------------- /COMPONENTS ------------------- */
+
 
 /* ----------------------- HEADER ---------------------- */
 
@@ -67,24 +67,23 @@ body{
     text-transform: uppercase;
 }
 .logo-web{
-    color: var(--suplementary-color)
+    color: var(--primary-brand)
 }
 .logo:hover,
 .logo:focus,
 .logo:active{
-    color: var(--primary-colour-darker);
+    color: var(--primary-colour-dark);
 }
 .mail,.tel {
     font-weight: 400;
-    color: var(--primary-color-lighter)
+    color: var(--body-text-color)
 }
 
-/* ----------------------- /HEADER ---------------------- */
 
 /* ------------------------- MAIN ----------------------- */
 
 .solutions-ad{
-    background-color: var(--primary-colour-darker);
+    background-color: var(--primary-colour-dark);
 }
 .main-title{
     font-weight: 600;
@@ -98,7 +97,7 @@ body{
     gap: 10px;
     width: 170px;
     height: 51px;
-    background-color: var(--suplementary-color);
+    background-color: var(--primary-brand);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: 500;
@@ -112,39 +111,40 @@ body{
     cursor: pointer;
 }
 .order-service-btn:active{
-    background-color: var(--btn-click);
+    background-color: var(--pressed-state);
 }
-/* ------------------------- /MAIN ----------------------- */
 
 /* ------------------------- FOOTER ---------------------- */
 .footer-company-info{
-    background-color: var(--primary-colour-darker);
+    background-color: var(--primary-colour-dark);
 }
-.footer-text{
-    color: var(--footer-text);
+.subtle-background{
+    color: var(--subtle-background);
 }
 .footer-company-info .logo{
-    color: var(--footer-logo-color);
+    color: var(--light-mode-backgroung);
 }
-/* ------------------------- /FOOTER ---------------------- */
 
 
 
 /* ======================PORTFOLIO========================= */
+
+/* ------------------------- MAIN ----------------------- */
+
 .gallery-filter-btn{
     padding: 8px 16px;
-    background: var(--footer-logo-color);
-    border: 1px solid #E7E9FC;
+    background: var(--light-mode-backgroung);
+    border: 1px solid var(--subtle-background);
     border-radius: 4px;
     font-weight: 500;
     text-align: center;
     letter-spacing: 0.04em; 
-    color: var(--suplementary-color);
+    color: var(--primary-brand);
     text-decoration: none;
 }
 .gallery-filter-btn:hover,
 .gallery-filter-btn:focus{
-    background: var(--suplementary-color);
+    background: var(--primary-brand);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);   
     color: var(--standard-white-color);
 }
@@ -155,8 +155,8 @@ body{
 .cash-payment-item{
     width: 360px;
     height: 300px;
-    background: var(--suplementary-color);
+    background: var(--primary-brand);
 }
 .cash-payment-item{
-    color: var(--footer-logo-color);
+    color: var(--light-mode-backgroung);
 }
