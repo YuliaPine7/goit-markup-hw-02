@@ -95,8 +95,6 @@ body{
 .order-service-btn{
     padding: 16px 32px;
     gap: 10px;
-    width: 170px;
-    height: 51px;
     background-color: var(--primary-brand);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
