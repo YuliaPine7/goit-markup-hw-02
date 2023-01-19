@@ -32,10 +32,10 @@ body{
 }
 .link:hover,
 .link:focus{
-    color: var(--body-text-color);
+    color: var(--pressed-state);
 }
 .link:active{
-    color: var(--primary-brand);
+    color: var(--pressed-state);
 }
 .hidden-element{
     display: none;
@@ -67,7 +67,7 @@ body{
     text-transform: uppercase;
 }
 .logo-web{
-    color: var(--primary-brand)
+    color: var(--primary-brand);
 }
 .logo:hover,
 .logo:focus,
@@ -77,6 +77,9 @@ body{
 .mail,.tel {
     font-weight: 400;
     color: var(--body-text-color)
+}
+.contact-details{
+    font-style: normal;
 }
 
 
@@ -107,6 +110,7 @@ body{
 .order-service-btn:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     cursor: pointer;
+    background-color: var(--pressed-state);
 }
 .order-service-btn:active{
     background-color: var(--pressed-state);
@@ -116,7 +120,7 @@ body{
 .footer-company-info{
     background-color: var(--primary-colour-dark);
 }
-.subtle-background{
+.footer-text{
     color: var(--subtle-background);
 }
 .footer-company-info .logo{
@@ -140,6 +144,7 @@ body{
     color: var(--primary-brand);
     text-decoration: none;
 }
+
 .gallery-filter-btn:hover,
 .gallery-filter-btn:focus{
     background: var(--primary-brand);
@@ -149,12 +154,4 @@ body{
 .gallery-card{
     border: 0.5px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-.cash-payment-item{
-    width: 360px;
-    height: 300px;
-    background: var(--primary-brand);
-}
-.cash-payment-item{
-    color: var(--light-mode-backgroung);
 }

@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -24,8 +27,8 @@
                 </li>
             </ul>
         </nav>
-        <address>
-            <ul class="contact-details list-remove-marker">
+        <address class="contact-details">
+            <ul class="list-remove-marker">
                 <li>
                     <a href="mailto:info@devstudio.com" class="link mail">info@devstudio.com</a>
                 </li>
@@ -39,25 +42,23 @@
     <main>
         <section class="gallery">
             <h1 class="hidden-element">Gallery Section</h1>
-            <div class="gallery-nav">
-                <ul class="list-remove-marker">
-                    <li>
-                        <a href="" class="gallery-filter-btn">All</a>
-                    </li>
-                    <li>
-                        <a href="" class="gallery-filter-btn">Web Site</a>
-                    </li>
-                    <li>
-                        <a href="" class="gallery-filter-btn">App</a>
-                    </li>
-                    <li>
-                        <a href="" class="gallery-filter-btn">Design</a>
-                    </li>
-                    <li>
-                        <a href="" class="gallery-filter-btn">Marketing</a>
-                    </li>
-                </ul>
-            </div>
+            <ul class="list-remove-marker">
+                <li class="gallery-item">
+                    <button class="gallery-filter-btn">All</button>
+                </li>
+                <li class="gallery-item">
+                    <button class="gallery-filter-btn">Web Site</button>
+                </li>
+                <li class="gallery-item">
+                    <button class="gallery-filter-btn">App</button>
+                </li>
+                <li class="gallery-item">
+                    <button class="gallery-filter-btn">Design</button>
+                </li>
+                <li class="gallery-item">
+                    <button class="gallery-filter-btn">Marketing</button>
+                </li>
+            </ul>
             <ul>
                 <li class="gallery-card">
                     <img src="./images/Portfolio/bank_app.jpg" alt="Screens from banking app" width="360px">
@@ -65,19 +66,17 @@
                     <p>App</p>
                 </li>
                 <li class="gallery-card">
-                    <div class="cash-payment-item">
-                        <p class="cash-payment-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
-                    </div>
+                   <img src="./images/Portfolio/contactless_payment.jpg" alt="making contactless payment with phone" width="360px">
                     <h2 class="suptitle">Cashless Payment</h2>
                     <p>Marketing</p>
                 </li>
                 <li class="gallery-card">
-                    <img src="/images/Portfolio/laptop_with_red_screen.jpg" alt="laptop and phone with red image on screen" width="360px">
+                    <img src="./images/Portfolio/laptop_with_red_screen.jpg" alt="laptop and phone with red image on screen" width="360px">
                     <h2 class="suptitle">Meditaion App</h2>
                     <p>App</p>
                 </li>
                 <li class="gallery-card">
-                    <img src="./images/Portfolio/steering_wheel.jpg" alt="steering wheel and driver's hand">
+                    <img src="./images/Portfolio/steering_wheel.jpg" alt="steering wheel and driver's hand" width="360px">
                     <h2 class="suptitle">Taxi Service</h2>
                     <p>Marketing</p>
                 </li>
@@ -87,13 +86,27 @@
                     <p>Design</p>
                 </li>
                 <li class="gallery-card">
-                    <img src="./images/Portfolio/girl_in_orange.jpg" alt="girl in orange sweater listening to music">
+                    <img src="./images/Portfolio/girl_in_orange.jpg" alt="girl in orange sweater listening to music" width="360px">
+                    <h2 class="suptitle">Online Courses</h2>
+                    <p>Marketing</p>
                 </li>
-                <li class="gallery-card"></li>
-
+                <li class="gallery-card">
+                    <img src="./images/Portfolio/pages_with_girl_in_white.jpg" alt="instagram pages of short-haired girl" width="360px">
+                    <h2 class="suptitle">Instagram Stories Concept</h2>
+                    <p>Design</p>
+                </li>
+                <li class="gallery-card">
+                    <img src="./images/Portfolio/organic_food.jpg" alt="bag with fresh fruits" width="360px">
+                    <h2 class="suptitle">Organic Food</h2>
+                    <p>Web Site</p>
+                </li>
+                <li class="gallery-card">
+                    <img src="./images/Portfolio/coffee.jpg" alt="barrista making cappuchino" width="360px">
+                    <h2 class="suptitle">Fresh Coffee</h2>
+                    <p>Web Site</p>
+                </li>
             </ul>
         </section>
-
     </main>
 
     <footer>
