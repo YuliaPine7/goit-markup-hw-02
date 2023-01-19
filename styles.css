@@ -28,7 +28,7 @@ body{
 .link{
     text-decoration: none;
     font-weight: 500;
-    color: var(--primary-colour-dark)
+    color: var(--primary-colour-dark);
 }
 .link:hover,
 .link:focus{
@@ -76,7 +76,7 @@ body{
 }
 .mail,.tel {
     font-weight: 400;
-    color: var(--body-text-color)
+    color: var(--body-text-color);
 }
 .contact-details{
     font-style: normal;
