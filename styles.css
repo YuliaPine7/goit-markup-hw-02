@@ -142,6 +142,7 @@ body{
     letter-spacing: 0.04em; 
     color: var(--primary-brand);
     text-decoration: none;
+    cursor: pointer;
 }
 
 .gallery-filter-btn:hover,
